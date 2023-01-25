@@ -33,7 +33,7 @@ if (randomNumber1 > randomNumber2) {
   document.querySelector(".drumPlayer").innerHTML = "🚩 Player 1 go ahead!";
 }
 else if (randomNumber2 > randomNumber1) {
-  document.querySelector(".drumPlayer").innerHTML = "Player 1 go ahead!🚩";
+  document.querySelector(".drumPlayer").innerHTML = "Player 2 go ahead!🚩";
 }
 else {
   document.querySelector(".drumPlayer").innerHTML = "Let's do a duet!";
